@@ -20,6 +20,7 @@ let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
 let cancelBtn = document.querySelector(".cancel-btn");
+let button = document.getElementById("button");
 
 menuBtn.onclick = function() {
     navBar.classList.add("active");
