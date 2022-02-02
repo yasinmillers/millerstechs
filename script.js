@@ -48,3 +48,9 @@ for (var i = 0; i < navLinks.length; i++) {
         menuBtn.style.pointerEvents = "auto";
     });
 }
+
+button.onclick = function() {
+    navBar.classList.remove("active");
+    menuBtn.style.opacity = "1";
+    menuBtn.style.pointerEvents = "auto";
+}
