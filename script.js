@@ -53,4 +53,5 @@ button.onclick = function() {
     navBar.classList.remove("active");
     menuBtn.style.opacity = "1";
     menuBtn.style.pointerEvents = "auto";
+
 }
